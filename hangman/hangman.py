@@ -20,7 +20,7 @@ words = [
     "knoflík", "zip", "rukáv", "kalhoty", "tričko", "kabát", "čepice", "boty", "ponožky", "šála", 
     "jablko", "banán", "pomeranč", "hruška", "meloun", "jahoda", "třešeň", "broskev", "meruňka", "citron"
 ]
-random.word = words[random.randint(0 , 12)]
+random.word = words[random.randint(0 , len(words)-1]
 
 # Generování podtržítek
 hidden_word =[]
